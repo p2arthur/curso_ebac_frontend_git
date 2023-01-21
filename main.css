@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body > header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.content-container {
+  margin-top: 3.5rem;
+}
+
+header ul {
+  width: 20rem;
+  justify-content: space-between;
+  list-style: none;
+  display: flex;
+}
+
+header li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 3rem;
+}
+
+img {
+  height: 40%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+article {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem;
+  width: 30%;
+  margin: 2rem 0;
+  transition: 100ms;
+  background: rgba(255, 255, 255, 0.512);
+}
+
+article:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.053);
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+section h2 {
+  color: black;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+.creation-date {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+a {
+  color: white;
+}
+
+article a {
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 8px;
+  text-decoration: none;
+  margin-top: 1rem;
+
+  font-weight: bold;
+  transition: 100ms;
+}
+
+article a:hover {
+  color: white;
+}
+
+article p,
+article a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+article h3 {
+  font-size: 22px;
+}
+
+/*Sports specific styling*/
+#sports {
+  background-color: rgba(155, 125, 255, 0.162);
+}
+
+#sports a {
+  border: 2px solid rgb(101, 77, 255);
+}
+#sports a:hover {
+  background-color: rgb(101, 77, 255);
+}
+
+/*Economy specific styling*/
+#economy {
+  background-color: rgba(255, 162, 0, 0.162);
+}
+
+#economy a {
+  border: 2px solid rgb(255, 98, 0);
+}
+#economy a:hover {
+  background-color: rgb(255, 98, 0);
+}
+/*Crypto specific styling*/
+#crypto {
+  background-color: rgba(172, 255, 47, 0.162);
+}
+
+#crypto a {
+  border: 2px solid rgb(74, 158, 0);
+}
+#crypto a:hover {
+  background-color: rgb(74, 158, 0);
+}
+
+/*Games specific styling*/
+#games {
+  background-color: rgba(255, 47, 220, 0.162);
+}
+
+#games a {
+  border: 2px solid rgb(255, 47, 220);
+}
+#games a:hover {
+  background-color: rgb(255, 47, 220);
+}
+
+.news {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container {
+  width: 100%;
+  padding: 1rem 3rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
