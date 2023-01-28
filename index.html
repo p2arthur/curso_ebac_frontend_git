@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <script defer src="app.js"></script>
+    <title>B maior que A - App EBAC</title>
+  </head>
+
+  <body>
+    <div class="content-card">
+      <div class="container">
+        <h1>A menor que B</h1>
+        <h2>Insira dois números onde B tem que ser maior que A</h2>
+      </div>
+
+      <div class="container">
+        <form>
+          <div class="input-error-container">
+            <label for="input-a">Número A:</label>
+            <input
+              id="input-a"
+              min="0"
+              type="number"
+              class="input-number"
+              placeholder="Número A"
+              required
+            />
+            <div class="error-message">
+              O número B deve ser maior que o número A
+            </div>
+          </div>
+          <div class="input-error-container">
+            <label for="input-b">Número B:</label>
+            <input
+              id="input-b"
+              min="0"
+              type="number"
+              class="input-number"
+              placeholder="Número B"
+              required
+            />
+            <div class="error-message">
+              O número B deve ser maior que o número A
+            </div>
+          </div>
+          <button class="form-button">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
